@@ -1,0 +1,113 @@
+
+@import url(grid.css);
+
+
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	font-size: 16px!important;
+}
+
+body{
+	position: relative;
+	min-height: 100vh;
+}
+
+
+header{	
+	height: 60px;
+	background-color: orange;
+	color: #FFF;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+ol{
+	list-style: none;
+	width: 100%;	
+}
+
+li{
+	display: inline-block;
+	float: left;
+	margin-right: 30px;
+}
+
+/* telas grandes */
+@media only screen and (min-width : 1200px) {
+	header{
+		background-color: green;
+
+	}
+
+}
+
+/* desktops*/
+@media only screen and (max-width : 1200px) {
+
+	header{
+		background-color: green;
+
+	}
+
+}
+
+/* tablets modo paisagem */
+@media only screen and (max-width : 992px) {
+
+	header{
+		background-color: blue;
+
+	}
+
+}
+
+/* tablets modo retrato */
+@media only screen and (max-width : 768px) {
+
+	header{
+		background-color: purple;
+
+	}
+
+}
+
+/* phones */ 
+@media only screen and (max-width : 480px) {
+
+	header{
+		background-color: #000;
+	}	
+
+	.col-xs-12{
+		width: 100%;
+	}
+
+}
+
+/* iPhone Retina */ 
+@media only screen and (max-width : 368px) {
+	.col-xs-12{
+		width: 100%;
+	}
+
+	header{
+		background-color: #000;
+	}	
+
+}
+
+
+
+
+
+
+
+
+
+
+
